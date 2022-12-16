@@ -86,7 +86,6 @@ print()
 print('BACKSLASH')
 print()
 print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
-print('Er fragte: "Sara\'s Haus?"')
 print("\"")
 
 #Newlines (Zeilenumbrüche in einer Anweisung)
@@ -130,7 +129,7 @@ print(x + 3)
 print(x)
 
 #Namen
-user = "Sara"
+user = "username"
 print(user)
 print(user*7)
 
@@ -158,8 +157,6 @@ foo = 3
 #del foo                    #hier würde foo wieder Referenzlos werden
 print(foo) 
 
-print('Hi Tim <3')
-#sry tim war grad da :P
 
 #weiter gehts mit
 
@@ -831,7 +828,7 @@ print(count)
 print()
 
 #probieren
-text = "Sara hat eine Katze namens Sara und Sara liebt Sara"
+text = "text"
 count = 0
 
 for name in text:
@@ -985,13 +982,13 @@ print()
 
 print("JOIN,REPLACE,STARTSWITH,ENDSWITH,LOWER,UPPER,SPLIT(opposite of join")
 print()
-print(":" .join(["Sara", "Tim"])) #Sara:Tim
-print("Hello Me" .replace("Me" , "Sara")) #Hello Sara
+print(":" .join(["one", "two"])) 
+print("Hello Me" .replace("Me" , "myname")) 
 print("This is a sentence".startswith("This"))
 #endswith analog
-print("sara ist cool".upper()) #wird groß geschrieben
-print("sAra Ist cOol".lower()) #wird klein geschrieben
-print("Sara, Tim".split( "," )) #Sara:Tim
+print("cool".upper()) #wird groß geschrieben
+print("cOol".lower()) #wird klein geschrieben
+print("one, two".split( "," )) 
 
 print()
 
@@ -1011,7 +1008,7 @@ my_func()         #print wird ja schon in der Funktion ausgeführt
 print()
 
 #bissl rumprobieren
-def saras_function():
+def function():
     x = 2
     y = 20
     for i in range(x,y):
@@ -1023,7 +1020,7 @@ def saras_function():
 i += 1
 
 
-saras_function()
+function()
 
 print()
 
@@ -1114,7 +1111,7 @@ print(operation(a, b))
 print()
 
 #ausprobieren
-def sara_mathe(t, u, v):
+def mathe(t, u, v):
  for i in range(3, 20):
     if i > t:
         return i + u
@@ -1124,7 +1121,7 @@ def sara_mathe(t, u, v):
 a = 2
 b = 5
 c = 10
-ausprobieren = sara_mathe(a, b, c)
+ausprobieren = mathe(a, b, c)
 print(ausprobieren)
 
 print()
