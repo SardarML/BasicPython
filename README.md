@@ -1,2 +1,2 @@
 # BsicPython
-All basic codes for lazy people
+cheat sheet basics in python for lazy people
